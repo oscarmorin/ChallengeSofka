@@ -1,0 +1,55 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #0e1822;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preguntas {
+    background: #e3f6f5;
+    width: 40rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+h1 { 
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#preguntas {
+    font-size: 1.7rem;
+    color: #5a6772
+}
+
+.btn {
+    background-color: #d34b4b;
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    border-radius: .3rem;
+    padding: 10px 20px;
+    margin: 10px 250px 10px;
+    outline: 0;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #139983;
+}
+
+#progreso {
+    color: #2b2b2b;
+    font-size: 20px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Challenge Sofka</title>
+</head>
+<body>
+
+   <div class="container">
+
+    <div>
+        <h1>
+            Challenge Sofka
+        </h1>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>
+            Concurso: Preguntas y Respuestas
+        </h3>
+    </div>
+
+    <hr>
+
+    <div id="preguntas" class="preguntas">
+
+        <h2 id="titulo">¡Bienvenido!</h2>
+
+        <div id="opciones" class="opciones">
+            <h3>Ingrese su nombre y haga click en Iniciar Juego</h3>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+
+            <h4>Consejos:</h4>
+            <p>Tienes 10 segundos para responder cada pregunta</p>
+            <p>Si te equivocas pierdes el acumulado</p>
+            <p>Si te retiras puedes conservar el acumulado</p>
+
+            <h2 id="historial">No hay historial de usuario / puntos</h2>
+
+        </div>
+        
+        <hr>
+
+        <footer>
+            <p id="progreso"></p>
+        </footer>
+
+    </div>
+
+    <hr>
+
+    <div id="botones">
+        <button type="button" id="iniciar" class="btn"> Iniciar Juego</button>
+    </div>
+
+    <hr>
+
+   </div>
+    
+
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
